@@ -1,0 +1,85 @@
+.campaignpage {
+    margin: 30px;
+}
+.campaignpage__heading {
+    font-size: 25px;
+    padding: 15px;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+
+.error-msg {
+    color: rgba(200, 0, 0, 1);
+}
+
+.campaign__search input{
+    height: 35px;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+/* list */
+.campaignlist {
+
+}
+.campaignlist__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+.campaignlist__table thead {
+    background:  #d7d7d7;
+}
+.campaignlist__table tr {
+    border-bottom: 1px solid #d7d7d7;
+}
+.campaignlist__table td{
+    padding: 10px;
+}
+
+/* campaign */
+.campaign__name {
+    color: blue;
+}
+.campaign__actions span {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/* pagination */
+.pagination-container {
+    text-align: center;
+    margin-top: 10px;
+}
+.rc-pagination  {
+    display: inline-block;
+}
+
+/* editCamapaign popup */
+.editCamapaign__popup {
+    padding: 10px 30px 30px 30px;
+    position: relative;
+}
+.editCamapaign__popup input {
+    height: 35px;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.popup__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.editCamapaign__popup button {
+    background: #5c7cfa;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
