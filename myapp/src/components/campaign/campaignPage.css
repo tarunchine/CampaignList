@@ -19,9 +19,6 @@
     box-sizing: border-box;
 }
 /* list */
-.campaignlist {
-
-}
 .campaignlist__table {
     width: 100%;
     border-collapse: collapse;
